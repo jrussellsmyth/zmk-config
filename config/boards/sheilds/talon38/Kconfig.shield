@@ -1,0 +1,2 @@
+config SHIELD_TALON38
+    def_bool $(shields_list_contains, talon38)

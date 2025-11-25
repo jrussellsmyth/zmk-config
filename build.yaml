@@ -22,3 +22,7 @@ include:
   - board: nice_nano_v2
     shield: talon38
     artifact-name: talon38-nice
+  - board: nice_nano_v2
+    shield: talon38
+    snippet: zmk-usb-logging
+    artifact-name: talon38-nice-usb-logging

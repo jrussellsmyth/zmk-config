@@ -21,3 +21,4 @@
 include:
   - board: nice_nano_v2
     shield: talon38
+    artifact-name: talon38-nice

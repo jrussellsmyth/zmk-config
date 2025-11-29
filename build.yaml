@@ -22,16 +22,16 @@ include:
   - board: nice_nano_v2
     shield: talon38_left
     artifact-name: talon38_nrf52840_left
-  - board: nice_nano_v2
-    shield: talon38_left
-    snippet: studio-rpc-usb-uart
-    artifact-name: talon38_nrf52840_left_studio
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: nice_nano_v2
-    shield: talon38_left
-    snippet: zmk-usb-logging
-    artifact-name:  talon38_nrf52840_left_usb_logging
-  - board: nice_nano_v2
-    shield: talon38_right
-    artifact-name: talon38_nrf52840_right
+  # - board: nice_nano_v2
+  #   shield: talon38_left
+  #   snippet: studio-rpc-usb-uart
+  #   artifact-name: talon38_nrf52840_left_studio
+  #   cmake-args: -DCONFIG_ZMK_STUDIO=y
+  # - board: nice_nano_v2
+  #   shield: talon38_left
+  #   snippet: zmk-usb-logging
+  #   artifact-name:  talon38_nrf52840_left_usb_logging
+  # - board: nice_nano_v2
+  #   shield: talon38_right
+  #   artifact-name: talon38_nrf52840_right
 

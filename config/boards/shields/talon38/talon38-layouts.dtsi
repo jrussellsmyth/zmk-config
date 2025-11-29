@@ -1,5 +1,4 @@
 #include <physical_layouts.dtsi>
-#include "talon38.dtsi"
 
 / {
     default_layout: physical_layout_0 {

@@ -2,9 +2,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "talon38-layouts.dtsi"
 
-&default-layout {
-        transform = <&default_transform>;
-};
 
 / {
     chosen {

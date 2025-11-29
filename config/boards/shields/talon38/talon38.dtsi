@@ -5,7 +5,9 @@
 / {
     chosen {
         zmk,kscan = &default_kscan;
+#ifndef CONFIG_ZMK_STUDIO
         zmk,matrix_transform = &default_transform;
+#endif
         zmk,physical_layout = &default_layout;
     };
     default_kscan: kscan {

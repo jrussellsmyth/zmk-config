@@ -10,7 +10,6 @@
     };
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        display-name = "default_kscan";
         diode-direction = "col2row";
     };
     default_transform: matrix_transform {

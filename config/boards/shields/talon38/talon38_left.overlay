@@ -1,15 +1,6 @@
-#include <dt-bindings/zmk/matrix_transform.h>
+#include "talon38.dtsi"
 
-/ {
-    chosen {
-        zmk,kscan = &default_kscan;
-        zmk,matrix_transform = &default_transform;
-    };
-    default_kscan: kscan {
-        compatible = "zmk,kscan-gpio-matrix";
-        label = "default_kscan";
-        diode-direction = "col2row";
-
+&default_kscan {
         row-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                     <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                     <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
@@ -21,20 +12,6 @@
                     <&pro_micro 5 (GPIO_ACTIVE_HIGH )>,
                     <&pro_micro 7 (GPIO_ACTIVE_HIGH )>,
                     <&pro_micro 8 (GPIO_ACTIVE_HIGH )>;
-
-        // row-gpios = <&pro_micro 6 (GPIO_ACTIVE_HIGH )>,
-        //             <&pro_micro 20 (GPIO_ACTIVE_HIGH)>,
-        //             <&pro_micro 32 (GPIO_ACTIVE_HIGH )>,
-        //             <&pro_micro 38 (GPIO_ACTIVE_HIGH)>;
-        // col-gpios = <&pro_micro 8 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>,
-        //             <&pro_micro 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-        //             <&pro_micro 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-        //             <&pro_micro 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-        //             <&pro_micro 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-        //             <&pro_micro 36 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
-
-                    
-
     };
 
     default_transform: matrix_transform {

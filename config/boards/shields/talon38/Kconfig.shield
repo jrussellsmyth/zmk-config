@@ -1,2 +1,5 @@
-config SHIELD_TALON38
-    def_bool $(shields_list_contains,talon38)
+config SHIELD_TALON38_LEFT
+    def_bool $(shields_list_contains,talon38_left)
+
+config SHIELD_TALON38_RIGHT
+    def_bool $(shields_list_contains,talon38_right)

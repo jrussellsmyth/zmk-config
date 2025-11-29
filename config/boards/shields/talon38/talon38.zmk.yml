@@ -1,0 +1,13 @@
+file_format: "1"
+id: talon38
+name: Talon38
+type: shield
+url: https://github.com/jrussellsmyth/quadsmack_keebs/tree/main/Talon38
+requires:
+  - pro_micro
+features:
+  - keys
+  - studio
+siblings:
+  - talon38_left
+  - talon38_right

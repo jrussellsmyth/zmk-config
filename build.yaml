@@ -36,6 +36,6 @@ include:
     artifact-name: talon38_nrf52840_right
   - board: nice_nano_v2
     shield: settings_reset
-    artifact-name: talon38_nrf52840_right_settings_reset
+    artifact-name: talon38_nrf52840_settings_reset
 
 

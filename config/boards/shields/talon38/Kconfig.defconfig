@@ -5,7 +5,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 endif
 
-if SHIELD_MY_KEYBOARD_LEFT || SHIELD_MY_KEYBOARD_RIGHT
+if SHIELD_TALON38_LEFT || SHIELD_TALON38_RIGHT
 config ZMK_SPLIT
     default y
 endif

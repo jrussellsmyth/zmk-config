@@ -16,11 +16,6 @@
             key-positions = <19 20>; // L + SEMI
             bindings = <&kp EQUAL>;
         };
-        combo_equal2 {
-            timeout-ms = <50>;
-            key-positions = <13 14>; // D + F
-            bindings = <&kp EQUAL>;
-        };
         combo_quote {
             timeout-ms = <50>;
             key-positions = <8 9>; // F + G
